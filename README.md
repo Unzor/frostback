@@ -10,7 +10,7 @@ Then add this to your HTML code:
 ```html
 <script src="frostback/chalk"></script>
 ```
-And require() it in a script:
+And `require()` it in a script:
 
 ```javascript
 var chalk = require("chalk");
