@@ -1,0 +1,26 @@
+{
+  "name": "frostback",
+  "version": "1.0.2",
+  "description": "NPM, but for the browser",
+  "repository": "https://github.com/Unzor/frostback",
+  "main": "index.js",
+  "bin": {
+    "frostback": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browserify",
+    "packager",
+    "nodejs",
+    "browser"
+  ],
+  "author": "diegab",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cli2json": "^1.0.0",
+    "find-imports": "^1.1.0"
+  }
+}
